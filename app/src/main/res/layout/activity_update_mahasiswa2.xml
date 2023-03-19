@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateMahasiswaActivity">
+
+    <!--Edit text to enter nama mahasiswa-->
+    <EditText
+        android:id="@+id/idEdtNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Masukan nama mahasiswa" />
+
+    <!--edit text to enter npm mahasiswa-->
+    <EditText
+        android:id="@+id/idEdtNimMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Masukan NPM mahasiswa" />
+
+    <!--edit text to display jurusan mahasiswa-->
+    <EditText
+        android:id="@+id/idEdtJurusanMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Masukan jurusan mahasiswa mahasiswa" />
+
+    <!--button for updating our course-->
+    <Button
+        android:id="@+id/idBtnUpdateMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update Mahasiswa"
+        android:textAllCaps="false" />
+
+</LinearLayout>

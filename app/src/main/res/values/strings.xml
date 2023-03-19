@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas3_PBM</string>
+    <string name="selamat_datang"><u>Selamat Datang</u></string>
+    <string name="nama">Nama</string>
+    <string name="nim">NPM</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="tambah">tambah</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="kembali">Kembali</string>
+    <string name="hapus">Hapus</string>
+</resources>
